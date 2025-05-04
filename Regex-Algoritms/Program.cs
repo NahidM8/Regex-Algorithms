@@ -1,21 +1,38 @@
 ﻿#region Task1
 
-//int[] numbers = { 31,22,45,3,7,44,66,77};
-//Console.WriteLine("Odd numbers: ");
-//for (int i = 0; i < numbers.Length; i++)
+//int[] numbers = { 31, 22, 45, 3, 7, 44, 66, 77 };
+
+//int evenCount = 0;
+//int oddCount = 0;
+//foreach (int num in numbers)
 //{
-//    if (numbers[i] % 2 == 1)
-//    {
-//        Console.WriteLine(numbers[i]);
-//    }
+//    if (num % 2 == 0)
+//        evenCount++;
+//    else
+//        oddCount++;
 //}
-//Console.WriteLine("Even numbers: ");
-//for (int i = 0; i < numbers.Length; i++)
+//int[] Even = new int[evenCount];
+//int[] Odd = new int[oddCount];
+
+//int evenIndex = 0; 
+//int oddIndex = 0;
+
+//foreach (int num in numbers)
 //{
-//    if (numbers[i] % 2 == 0)
-//    {
-//        Console.WriteLine(numbers[i]);
-//    }
+//    if (num % 2 == 0)
+//        Even[evenIndex++] = num;
+//    else
+//        Odd[oddIndex++] = num;
+//}
+//Console.WriteLine("Odd numbers:");
+//foreach (var i in Odd)
+//{
+//    Console.WriteLine(i);
+//}
+//Console.WriteLine("Even numbers:");
+//foreach (var i in Even)
+//{
+//    Console.WriteLine(i);
 //}
 
 #endregion
@@ -38,7 +55,7 @@
 #endregion
 #region Task3
 
-//int[] numbers = { 11, 11, 11, 33, 33, 56, 56, 21, 21, 21, 21, 78, 300, 23 };
+//int[] numbers = { 11, 33, 33, 56, 56, 21, 21, 300, 23 };
 
 //for (int i = 0; i < numbers.Length; i++)
 //{
@@ -48,7 +65,7 @@
 //        if (numbers[j] == numbers[i])
 //            count++;
 //    }
-//    if (count == 2)
+//    if (count == 1)
 //        Console.WriteLine(numbers[i]);
 //}
 
